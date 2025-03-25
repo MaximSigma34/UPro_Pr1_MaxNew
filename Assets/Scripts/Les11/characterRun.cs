@@ -6,12 +6,12 @@ using static FSMController;
 public class characterRun : State
 {
     [SerializeField]
-    private float _speedWallkin = 20;
+    protected float _speedWallkin = 20;
 
     [SerializeField]
-    private string nameH = "Horizontal";
+    protected string nameH = "Horizontal";
     [SerializeField]
-    private string nameV = "Vertical";
+    protected string nameV = "Vertical";
 
     public override void Do()
     {

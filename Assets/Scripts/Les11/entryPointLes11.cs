@@ -8,6 +8,7 @@ public class entryPointLes11 : MonoBehaviour
     void Start()
     {
         FindObjectOfType<FSMController>()?.Init();
+        FindObjectOfType<FSMControllerLes12>()?.Init();
     }
 
     // Update is called once per frame
