@@ -59,7 +59,7 @@ public class BuilderCharacter : ICharacterBuilder
 
     public ICharacterBuilder SetStats(CharacterStats stats)
     {
-        this.prefabCharacterStats = prefabCharacterStats;
+        this.prefabCharacterStats = stats;
         return this;
     }
 
