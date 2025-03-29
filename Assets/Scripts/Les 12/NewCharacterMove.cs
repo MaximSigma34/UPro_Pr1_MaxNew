@@ -37,7 +37,7 @@ public class NewCharacterMove : CharacterMove
         _currentMove.Move(moveInput);
     }
 
-    private void InitializeMovementStrategies()
+    private void InitializeMovementStrategies()// словарь и конструктор
     {
         _movementStrategies = new Dictionary<MovementType, IMoving>
         {
