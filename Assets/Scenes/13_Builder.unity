@@ -409,6 +409,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1127598576}
   - component: {fileID: 1127598577}
+  - component: {fileID: 1127598578}
+  - component: {fileID: 1127598579}
   m_Layer: 0
   m_Name: EntryPoint
   m_TagString: Untagged
@@ -438,7 +440,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127598574}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b13bb3adcc8e56f4e923625b770ff07b, type: 3}
   m_Name: 
@@ -447,3 +449,35 @@ MonoBehaviour:
   magic: {fileID: 5593533584486520984, guid: 404662ce29a5f8446ab3deb5e39cf80e, type: 3}
   cowboy: {fileID: 120393508093804532, guid: 2b254a81c1f7b4c47b246e5b1d349157, type: 3}
   controller: {fileID: 9100000, guid: baa44ce1200f4fe468f3c41610cf495b, type: 2}
+--- !u!114 &1127598578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127598574}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f879a22f7117340bfb8233e69b4acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ordinary: {fileID: -7283208917925972621, guid: 486578db4e270254d81e5748302161bd, type: 3}
+  magic: {fileID: 5593533584486520984, guid: 404662ce29a5f8446ab3deb5e39cf80e, type: 3}
+  cowboy: {fileID: 120393508093804532, guid: 2b254a81c1f7b4c47b246e5b1d349157, type: 3}
+  controller: {fileID: 0}
+--- !u!114 &1127598579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127598574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f38e66daf9542940a81a03af702f523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ordinary: {fileID: -7283208917925972621, guid: 486578db4e270254d81e5748302161bd, type: 3}
+  magic: {fileID: 5593533584486520984, guid: 404662ce29a5f8446ab3deb5e39cf80e, type: 3}
+  cowboy: {fileID: 120393508093804532, guid: 2b254a81c1f7b4c47b246e5b1d349157, type: 3}
+  controller: {fileID: 0}
